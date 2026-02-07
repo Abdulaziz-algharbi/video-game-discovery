@@ -15,7 +15,7 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/games/:gameId",
+        path: "/games/:slug",
         element: <GameDetailPage />,
       },
     ],
